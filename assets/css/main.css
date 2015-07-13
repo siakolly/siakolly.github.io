@@ -68,7 +68,7 @@
 	}
 
 	body {
-		background: #ffffff;
+		background: #2454A2;
 		overflow: hidden;
 	}
 
@@ -91,7 +91,9 @@
 	}
 
 		a:hover {
-			border-color: transparent;
+			border-color: Black;
+			border-radius: 15px;
+			border-top-left-radius: 15px;
 		}
 
 /* Icon */
@@ -187,13 +189,38 @@
 	/* Set your background with this */
 
 		background: #348cb2 url("images/Chelsea_3216345b.jpg") bottom left;
-		background-repeat: repeat-x;
-		height: 100%;
+		height: 50%;
 		left: 0;
 		opacity: 1;
-		position: fixed;
-		top: 0;
+		position: top;
+		top : 0;
 	}
+#bg1 {
+		-moz-animation: bg 60s linear infinite;
+		-webkit-animation: bg 60s linear infinite;
+		-ms-animation: bg 60s linear infinite;
+		animation: bg 60s linear infinite;
+		-moz-backface-visibility: hidden;
+		-webkit-backface-visibility: hidden;
+		-ms-backface-visibility: hidden;
+		backface-visibility: hidden;
+		-moz-transform: translate3d(0,0,0);
+		-webkit-transform: translate3d(0,0,0);
+		-ms-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	/* Set your background with this */
+
+		background: #348cb2 url("bg.jpg") bottom left;
+		height: 50%;
+		left: 0;
+		opacity: 10;
+		position: bottom;
+		bottom: 0;
+		 
+	}
+
+		
+
 
 	@-moz-keyframes bg {
 		0% {
@@ -260,7 +287,7 @@
 	}
 
 	#bg {
-		background-size: 2250px auto;
+		background-size: 2255px auto;
 		width: 6750px;
 	}
 
