@@ -193,9 +193,7 @@
 		left: 110px;
 		opacity: 1;
 		position: top;
-		top : 50%;
-		size: 1000px auto;
-		width: 3750px;
+		top : 100%;
 	}
 
 #bg1 {
@@ -218,7 +216,7 @@
 		left: 110px;
 		opacity: 1;
 		position: bottom;
-		bottom: 50%;
+		bottom: 80%;
 		size: 1000px auto;
 		width: 3750px;
 		 
