@@ -188,14 +188,13 @@
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: #ffffff url("images/Chelsea_3216345b.jpg") top repeat;
+		background: #348cb2 url("images/Chelsea_3216345b.jpg") bottom left;
 		height: 50%;
-		left: 110px;
+		left: 0;
 		opacity: 1;
 		position: top;
-		top : 100%;
+		top : 0;
 	}
-
 #bg1 {
 		-moz-animation: bg 60s linear infinite;
 		-webkit-animation: bg 60s linear infinite;
@@ -211,16 +210,16 @@
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: #ffffff url("images/bg.jpg") bottom ;
+		background: #348cb2 url("bg.jpg") bottom left;
 		height: 50%;
-		left: 110px;
-		opacity: 1;
+		left: 0;
+		opacity: 10;
 		position: bottom;
-		bottom: 80%;
-		size: 1000px auto;
-		width: 3750px;
+		bottom: 0;
 		 
-	}		
+	}
+
+		
 
 
 	@-moz-keyframes bg {
@@ -288,8 +287,8 @@
 	}
 
 	#bg {
-		background-size: 1000px auto;
-		width: 3750px;
+		background-size: 2255px auto;
+		width: 6750px;
 	}
 
 /* Overlay */
@@ -543,7 +542,7 @@
 
 		#header h1 {
 			font-size: 4.35em;
-			font-weight:900;
+			font-weight: 900;
 			letter-spacing: -0.035em;
 			line-height: 1em;
 			color: black;
@@ -553,7 +552,6 @@
 			font-size: 1.25em;
 			margin: 0.75em 0 0.25em 0;
 			opacity: 0.75;
-			font-weight:900;
 		}
 
 		#header nav {
@@ -724,12 +722,6 @@
 
 			body, input, select, textarea {
 				font-size: 13pt;
-			}
-
-			p{
-			  color:yellow;
-			}
-	
 			}
 
 		/* BG */
@@ -1068,8 +1060,6 @@
 		#bg {
 			background-size: 412.5px auto;
 			width: 1237.5px;
-		}
-
 		}
 
 	/* Header */
